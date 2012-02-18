@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<install 
+ product="ut2004" 
+ desc="Unreal Tournament 2004" 
+ version="1.0-english-4"
+ component="Megapack"
+ binarypath="/usr/local/bin"
+ category="Game"
+ promptbinaries="no"
+ express="no"
+ superuser="no"
+ reinstall="no"
+ reinstallnowarning="yes"
+ nopromptoverwrite="yes"
+ reinstallfast="yes"
+ splashpos="top"
+ nomenuitems="no"
+>
+ 
+ <readme>
+  README.liflg
+ </readme>
+
+ <option install="true" required="true" size="525M">
+   Megapack
+  <help>Required for play</help>
+
+  <binary arch="x86" libc="any" path="System">
+   ucc-bin
+   ut2004-bin
+  </binary>
+
+  <binary arch="x86_64" libc="any" path="System">
+   ucc-bin
+   ut2004-bin
+  </binary>
+  
+  <binary arch="amd64" libc="any" path="System">
+   ucc-bin
+   ut2004-bin
+  </binary>
+
+  <files>
+   ut2004_megapack.tar.bz2
+  </files>
+
+ </option>
+</install>
